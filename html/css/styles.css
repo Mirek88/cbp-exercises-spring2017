@@ -1,0 +1,47 @@
+
+p.red {
+	background-color: red;
+}
+
+p.green {
+	background-color: green;
+}
+
+p.blue {
+	background-color: blue;
+}
+
+p.red a {
+	color: white;
+}
+
+p.green a {
+	color: blue;
+}
+
+p.blue a {
+	color: yellow;
+}
+ol li.unseen {
+	color: silver;
+}
+ol li.seen {
+	color: darkred;
+}
+
+ol li.seen.good {
+	color: green;
+}
+
+h1, h2 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+h1, h2:hover {
+	text-decoration: none;
+}
+
+.filmography {
+	margin: 0 auto;
+}

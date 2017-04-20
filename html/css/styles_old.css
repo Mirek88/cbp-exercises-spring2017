@@ -1,0 +1,28 @@
+
+h1 {
+	color: blue;
+}
+
+a {
+	font-weight: bold;
+	color: blue;
+}
+
+a {
+	color: white;
+	background-color: black;
+}
+
+#biography {
+	background-color:  #80bfff
+
+}
+
+p {
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+table[border="2"] {/*only this type of element will be effected */
+	border-color: red;
+} 

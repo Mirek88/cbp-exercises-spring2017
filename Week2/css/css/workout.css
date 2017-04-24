@@ -1,0 +1,10 @@
+body {
+	font-style: Arial;
+}
+li {
+	font-weight: bold;
+}
+.subtext {
+	color: #cccccc;
+	font-size: 12px;
+}

@@ -1,0 +1,144 @@
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 400;
+	max-width: 1000px;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+header {
+  background: #55d6aa;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 15px;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+.news-left {
+	width: 300px;
+	height: 320px;
+	margin: 0 15px;
+	padding:0 5px;
+	background-color: #55d6aa;
+	float: left;
+	border: 1px solid black;
+}
+.news-right {
+	width: 300px;
+	height: 320px;
+	margin: 0 15px;
+	padding: 0 5px;
+	background-color: #55d6aa;
+	float: left;
+	border: 1px solid black;
+}
+
+.clear {
+	clear: both;
+}
+
+.hottest-movies {
+
+}
+.rogue-homepage {
+	width: 300px;
+	height: 300px;
+}
+
+.felicity-homepage {
+	width: 250px;
+	height: 300px;
+}
+
+.top-bar {
+
+}
+
+.title-block {
+	float: left;
+}
+.rogue {
+	width: 200px; 
+	height: 250px;
+	float: left;
+}
+
+.title-block {
+}
+
+.rating {
+	margin-top: 5px;
+	margin-left: 40px;
+	float: left;
+}
+
+.rating::after {
+	content: '';
+}
+
+.trailer {
+	float: left;
+	margin-left: 15px;
+}
+
+.bottom-bar {
+}
+

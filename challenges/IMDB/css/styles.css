@@ -1,7 +1,10 @@
 body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
-	max-width: 1000px;
+}
+
+p {
+	text-align: justify;
 }
 
 #wrapper {
@@ -25,6 +28,7 @@ header::after {
 .logo {
   float: left;
   padding: 10px 0;
+  padding-left: 10px;
 }
 
 nav {
@@ -40,6 +44,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 70px;
+  padding-right: 10px;
   padding-top: 23px;
   position: relative;
 }
@@ -60,11 +65,9 @@ nav a::before {
   display: block;
   height: 5px;
   background-color: #444;
-
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
@@ -96,8 +99,14 @@ nav a:hover::before {
 }
 
 .hottest-movies {
-
+	width: 300px;
+	height: 300px;
 }
+
+.hottest-actors {
+	margin-top: 50px;
+}
+
 .rogue-homepage {
 	width: 300px;
 	height: 300px;
@@ -108,7 +117,10 @@ nav a:hover::before {
 	height: 300px;
 }
 
-.top-bar {
+.movie-container {
+	border: 2px solid black;
+	float: left;
+	margin: 5px 5px 0 0;
 
 }
 
@@ -139,6 +151,43 @@ nav a:hover::before {
 	margin-left: 15px;
 }
 
-.bottom-bar {
+.plot {
+	height: 200px;
+	overflow: auto;
+	margin-bottom: -40px;
+
 }
 
+.reviews {
+	border: 1px solid black;
+	margin-top: 15px;
+	padding: 0 10px;
+}
+
+.actor-photo {
+	width: 250px;
+	height: 300px;
+	background: url('../data/images/felicity-jones.jpg');
+	background-size: cover;
+	margin-top: 10px;
+	float: left;
+}
+
+.bio {
+	width: 450px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: 3px;
+	float: left;
+	font-size: 0.9em;
+	overflow: auto;
+}
+
+h2.jones-felicity {
+	margin-bottom: -10px;
+}
+
+.hr {
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
